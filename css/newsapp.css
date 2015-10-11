@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+/*
+@font-face {
+    font-family: ARKITECH ROUND LIGHT;
+    src: url(https://drive.google.com/file/d/0B0P4RNUjyxqJUng4NlBOWTdPdW8/view?usp=sharing);
+}
+*/
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+}
+
+.items-group{}
+
+.items-group .item{
+	margin-bottom: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;		
+}
+
+.items-group .item .item-title{
+	font-size: 16px;
+	color: #333;
+	background-color: #f5f5f5;
+	padding: 10px 15px;  
+	display: block;
+	font-weight: bold;	
+}
+
+.items-group .item .item-description{
+	border-top-color: #ddd;
+	padding: 15px;
+	display: none;
+}
+
+.items-group .item .item-description p{
+	text-align: justify;
+	margin: 10px auto;
+}
+
+.items-group .item .item-description img{
+	margin: auto;
+}
+
+.show-all{
+	padding: 10px 15px;
+}
+
+.my-tables{
+	border: none;
+}
+
+.my-tables table{
+	margin-top: 10px;
+	border: 1px solid #ededed;
+}
+
+.my-tables table tr td,
+.my-tables table tr th{
+	text-align:center;
+	width: 33%;
+}
+
+@media (max-width: 768px) {
+	.items-group .item .item-title{ font-size: 18px; }
+	.items-group .item .item-description p{ font-size: 16px; }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.items-group .item .item-title{ font-size: 20px; }
+	.items-group .item .item-description p{ font-size: 18px; }	
+	.items-group .item .item-description img{display: block;}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.items-group .item .item-description img{display: block;}
+}
+
+@media (min-width: 1200px) {
+	.items-group .item .item-description img{display: block;}
+}

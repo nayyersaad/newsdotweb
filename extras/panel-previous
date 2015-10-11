@@ -1,0 +1,26 @@
+  <!--
+    <div class="panel-group" 
+         id="accordion" role="tablist" aria-multiselectable="true"
+         ng-controller="newscontroller">
+
+      <div class="panel panel-default" ng-repeat="item in data">
+        <div class="panel-heading" role="tab" ng-attr-id="{{ 'heading-' + item.newsid }}"> 
+          <h4 class="panel-title news-title">
+            <a data-toggle="collapse" data-parent="#accordion" ng-attr-href="{{ '#collapse-' + item.newsid }}" aria-expanded="false" ng-attr-aria-controls="{{ 'collapse-' + item.newsid }}">
+              {{item.headline}}
+            </a>
+          </h4>
+        </div>
+        <div ng-attr-id="{{ 'collapse-' + item.newsid }}" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body news-body">
+            <img ng-show="{{item.description.hasPicture}}"
+            ng-src="{{item.description.pictureLink}}" 
+            class="img-responsive img-thumbnail img-alignment"
+            />                      
+            <p>{{item.description.details}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+-->

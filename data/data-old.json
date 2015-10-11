@@ -1,0 +1,22 @@
+[
+	{
+		"newsid": 1,
+		"headline": "Apple losses $553M iTunes patent troll.",
+		"description": {
+			"postdate": "Tuesday, February 24th, 2015.",
+			"details": "Apple said Wednesday it would appeal a $533 million award from a federal court in Texas in a patent infringement lawsuit over flash memory technology used in its iTunes music store. Apple said Wednesday it would appeal a $533 million award from a federal court in Texas in a patent infringement.",
+			"hasPicture": false,
+			"pictureLink": ""
+		}
+	},
+	{
+		"newsid": 2,
+		"headline": "HostingChimp Long Description.",
+		"description": {
+			"postdate": "Tuesday, February 24th, 2015.",
+			"details": "HostingChimp reviews web hosting companies and packages and provides discounts and special offers. Users can keep track of their hosting packages, get notifications on payment, discount and special offers.",
+			"hasPicture": true,
+			"pictureLink": "http://hostingchimp.com/static/image/hostingchimp_logo_small.png"			
+		}
+	}
+]
